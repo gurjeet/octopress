@@ -1,0 +1,10 @@
+
+The edit-publish cycle looks like following for my blog.
+
+```
+cd OCTOPRESS
+vi source/_posts/some_blog_post
+rake generate
+rm -rf /var/www/html/gurjeet/blog/ && mv public /var/www/html/gurjeet/blog/
+```
+
